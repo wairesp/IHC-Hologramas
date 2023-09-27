@@ -5,7 +5,7 @@ Este proyecto se enfoca en la creación de un holograma de una persona utilizand
 Para alcanzar este objetivo, dividimos el proyecto en seis partes fundamentales:
 
 ## 1. Captura de Datos y Calibración de los Kinects
-En esta etapa inicial, se capturan datos de profundidad y, posiblemente, datos de color utilizando los sensores Kinect. La calibración de los Kinects se realiza mediante el algoritmo desarrollado por el profesor LOAIZA FERNANDEZ MANUEL EDUARDO .
+En esta etapa inicial, se capturan datos de profundidad y, posiblemente, datos de color utilizando los sensores Kinect esto gracias a la libreria https://github.com/OpenKinect/libfreenect2 que nos permitira usar mas de un kinect. La calibración de los Kinects se realiza mediante el algoritmo desarrollado por el profesor LOAIZA FERNANDEZ MANUEL EDUARDO .
 
 ## 2. Conversión de Datos
 En esta fase, se emplea un algoritmo para combinar los datos de puntos (point clouds) capturados por los Kinects y generar un objeto tridimensional. Se utilizan técnicas como el algoritmo Iterative Closest Point (ICP) para asegurar una superposición precisa de las nubes de puntos.
