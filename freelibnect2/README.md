@@ -2,7 +2,7 @@
 
 ## Pasos
 1. Ir al path de vcpkg con el comando `cd freelibnect2 && cd vcpkg` 
-   (opcional) clonar este repositorio `https://github.com/Microsoft/vcpkg`
+   (opcional) sino funcionan los pasos posteriores clonar este repositorio `https://github.com/Microsoft/vcpkg`
 2. En la carpeta vcpkg correr `.\bootstrap-vcpkg.bat`
 3. Después correr `.\vcpkg integrate install`
 4. Finalmente correr `.\vcpkg install libfreenect2`
