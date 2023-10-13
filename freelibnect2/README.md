@@ -7,6 +7,10 @@
 3. Después correr `.\vcpkg integrate install`
 4. Finalmente correr `.\vcpkg install libfreenect2`
 
+5. Instalación de libusbK a través de Zadig: Luego, utilizamos Zadig para instalar libusbK en el Xbox NUI Sensor (composite parent). LibusbK es una biblioteca que proporciona soporte genérico para dispositivos USB.
+
+Nota: Verificamos que no estemos utilizando controladores ASMedia, ya que estos no funcionan correctamente con nuestro hardware.
+
 ## Uso
 1. Con Visual Studio Community 2022, creamos un proyecto nuevo que utilice la consola.
 2. Dentro de las propiedades del proyecto, asegurarse que dentro de Configuration properties > Linker > System se tenga a `Console(/SUBSYSTEM:CONSOLE)` como valor en SubSystem.
